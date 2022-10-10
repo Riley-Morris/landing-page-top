@@ -1,3 +1,22 @@
 .thumbnails {
-    width: 200px;
+    width: 75px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.header-list {
+   margin-left: auto;
+   
+   
+}
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 10px;
 }
