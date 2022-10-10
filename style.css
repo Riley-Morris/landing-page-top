@@ -5,7 +5,7 @@ body {
     display: flex;
     height: 100vh;
     font-family: sans-serif;
-   
+    margin: 0px;
    
 }
 .container {
@@ -13,7 +13,7 @@ body {
     min-height: 100%;
     flex-direction: column;
     flex: 1;
-    margin: 0px;
+    
 }
 #header {
     display: flex;
@@ -21,6 +21,7 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
+    flex: 1;
 }
 ul {
     display: flex;
@@ -28,7 +29,9 @@ ul {
     list-style: none;
     gap: 30px;
     margin-left: auto;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 100;
+    padding-right: 10px;
 
 }
 
