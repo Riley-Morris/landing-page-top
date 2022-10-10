@@ -47,23 +47,44 @@ ul {
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
+    width: 70%;
+    
 }
 
 #bigtext {
     font-size: 48px;
     font-weight: bolder;
+    margin: 20px;
     
+}
+#smalltext {
+    margin-left: 20px;
+    margin-top: 15px;
 }
 .button-box {
     display: flex;
     align-items: flex-end;
     flex: 1;
 }
+
+button {
+    background-color: rgb(144, 146, 23);
+    color: aliceblue;
+    font-weight: bold;
+    width: 100px;
+    border-radius: 15%;
+    height: 30px;
+    margin: 30px;
+}
+
 .firstimg {
     display: flex;
     flex: 1;
     justify-content: center;
     align-items: center;
+}
+#mainimg {
+    width: 100%;
 }
 
 .secondrow {
