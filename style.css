@@ -23,6 +23,9 @@ body {
     font-weight: 700;
     flex: 1;
 }
+.header-logo {
+    padding-left: 20px;
+}
 ul {
     display: flex;
     text-decoration: none;
@@ -38,8 +41,24 @@ ul {
 .firstrow {
     display: flex;
     flex: 1;
+    background-color: #1F2937;
+}
+.textbox {
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
 }
 
+#bigtext {
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+.button-box {
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+}
 .firstimg {
     display: flex;
     flex: 1;
@@ -61,6 +80,7 @@ ul {
 .imagebox {
     width: 120px;
 }
+
 
 .thirdrow {
     display: flex;
