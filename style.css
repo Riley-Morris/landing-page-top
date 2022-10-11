@@ -42,6 +42,8 @@ ul {
     display: flex;
     flex: 1;
     background-color: #1F2937;
+    max-height: 300px;
+    min-height: fit-content;
 }
 .textbox {
     color: #F9FAF8;
@@ -70,9 +72,10 @@ ul {
 button {
     background-color: rgb(144, 146, 23);
     color: aliceblue;
+    font-size: 20px;
     font-weight: bold;
     width: fit-content;
-    border-radius: 20%;
+    border-radius: 10px;
     height: 30px;
     margin: 30px;
 }
@@ -83,10 +86,11 @@ button {
     justify-content: center;
     align-items: center;
     
+    
 }
 #mainimg {
-    width: 60%;
-    margin: 25px;
+    width: 500px;
+    margin: 40px;
     border-radius: 30px;
 }
 
@@ -112,8 +116,7 @@ button {
 .imagebox {
     width: 120px;
     text-align: center;
-    
-   
+    margin-bottom: 10px;
 }
 .thumbnails {
     border-color: rgb(12, 78, 119);
@@ -127,23 +130,28 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1;
     background-color: #45A29E;
+    font-size: 16px;
+
 }   
 .quote {
     max-width: 50%;
     min-width: 50%;
+    font-style: italic;
+    color: azure;
+    margin: 20px;
+
 }
 #author {
     text-align: right;
+    font-weight: 600;
 }
 
 .fourthrow {
     display: flex;
-    min-height: 10%;
+    height: 200px;
     align-items: center;
     justify-content: center;
-    flex: 1;
     min-height: fit-content;
 }
 
