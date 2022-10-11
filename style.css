@@ -94,6 +94,7 @@ button {
     justify-content: center;
     align-items: center;
     flex: 1;
+    background-color: rgb(96, 127, 158);
 }
 .centerbox{
     display: flex;
@@ -101,8 +102,13 @@ button {
 }
 .imagebox {
     width: 120px;
+   
 }
-
+.thumbnails {
+    border-color: rgb(12, 78, 119);
+    border-style: solid;
+    border-width: 4px;
+}
 
 .thirdrow {
     display: flex;
