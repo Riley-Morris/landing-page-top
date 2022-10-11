@@ -97,15 +97,22 @@ button {
     align-items: center;
     flex: 1;
     background-color: rgb(96, 127, 158);
+    color: #F9FAF8;
+    font-weight: 600;
+}
+#rowheader {
+    font-size: 30px;
+    margin: 20px;
 }
 .centerbox{
     display: flex;
     gap: 70px;
 }
+
 .imagebox {
     width: 120px;
     text-align: center;
-    color: #F9FAF8;
+    
    
 }
 .thumbnails {
@@ -120,7 +127,9 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}   flex: 1;
+    flex: 1;
+    background-color: #45A29E;
+}   
 .quote {
     max-width: 50%;
     min-width: 50%;
@@ -135,12 +144,34 @@ button {
     align-items: center;
     justify-content: center;
     flex: 1;
+    min-height: fit-content;
 }
 
 #fourthbox {
     display: flex;
     gap: 30px;
-    
+    height: 150px;
+    width:800px;
+    background-color: #1F2833;
+    margin: 50px;
+}
+
+.fourth {
+    color: #F9FAF8;
+    margin: 25px;
+    margin-left: 50px;
+}
+#fourthtitle {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.buttonbox2 {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 40px;
 }
 
 #footer {
