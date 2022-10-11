@@ -4,7 +4,7 @@
 body {
     display: flex;
     height: 100vh;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
    
 }
@@ -33,7 +33,7 @@ ul {
     gap: 30px;
     margin-left: auto;
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 600;
     padding-right: 10px;
 
 }
@@ -71,8 +71,8 @@ button {
     background-color: rgb(144, 146, 23);
     color: aliceblue;
     font-weight: bold;
-    width: 100px;
-    border-radius: 15%;
+    width: fit-content;
+    border-radius: 20%;
     height: 30px;
     margin: 30px;
 }
@@ -82,10 +82,12 @@ button {
     flex: 1;
     justify-content: center;
     align-items: center;
+    
 }
 #mainimg {
     width: 60%;
     margin: 25px;
+    border-radius: 30px;
 }
 
 .secondrow {
@@ -102,12 +104,15 @@ button {
 }
 .imagebox {
     width: 120px;
+    text-align: center;
+    color: #F9FAF8;
    
 }
 .thumbnails {
     border-color: rgb(12, 78, 119);
     border-style: solid;
     border-width: 4px;
+    border-radius: 30px;
 }
 
 .thirdrow {
